@@ -2,10 +2,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-size: 16px;    
+    font-size: 16px;
 }
-
-
 
 #sfondo_logo{
     height: 100px;
@@ -24,15 +22,14 @@
 
 #logo{
     height: 45px;
-   margin-top: 45px;
-   margin-left: 5px;
-
+    margin-top: 45px;
 }
 
 /* corpo dell'articolo */
 .container{
+    margin-left: 10px;
     width: 1200px;
-    margin:auto;
+    margin: auto;
 }
 
 .titolo_articolo{
@@ -64,44 +61,35 @@
 
 /* sezione 4  */
 
-/* linea di intestazione */
-.row_intestazione{
-    margin-top: 20px;
-    background-color: rgb(21, 179, 241);
-    color: cornsilk;
+/* thead */
+table{
     font-size: 18px;
-    font-weight: bold;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.thead{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(31, 136, 235);
 }
 
-.spazio_intestazione{
-    display: inline-block;
+.th_1{
     width: 23%;
 }
 
-.spazio_intestazione3{
-    display: inline-block;
-    width: 40%;
+.th_2{
+    width:45% ;
 }
 
 /* tbody */
 
-.table{
-    margin-bottom: 20px;
+.tbody_azzurro{
+    background-color: turquoise;
+    
 }
 
-.row_body{
-    background-color: lightskyblue;
-}
-
-.space_body{
-    display: inline-block;
-    width: 23%;
-}
-
-.space_body3{
-    display: inline-block;
-    width: 40%;
-
+.td_1{
+    text-align: center;
 }
 
 /* footer */
