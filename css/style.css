@@ -58,3 +58,33 @@
     margin-top: 20px;
 }
 
+/* sezione 4  */
+
+/* linea di intestazione */
+.row_intestazione{
+    margin-top: 20px;
+    background-color: rgb(21, 179, 241);
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.spazio_intestazione{
+    display: inline-block;
+    width: 23%;
+}
+
+.spazio_intestazione3{
+    display: inline-block;
+    width: 40%;
+}
+
+/* tbody */
+
+.row_body{
+    font-size: 20px;
+    
+}
+
+
+
