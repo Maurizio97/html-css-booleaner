@@ -48,3 +48,8 @@
 .img_sezione1{
     margin-top: 20px;
 }
+
+.descrizione_img{
+    display: block;
+    font-size: 11px;
+}
