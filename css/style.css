@@ -4,3 +4,25 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#sfondo_logo{
+    height: 100px;
+    width: 100%;
+    background-image: url(../img/pattern.png);
+    background-color: rgb(60, 188, 231);
+    background-size: contain;
+    background-position: top;
+}
+
+.layover{
+    background-color: rgba(75,75,75, 0.3);
+    height: 100%;
+    width: 100%;
+}
+
+#logo{
+    height: 45px;
+   margin-top: 45px;
+   margin-left: 5px;
+
+}
+
