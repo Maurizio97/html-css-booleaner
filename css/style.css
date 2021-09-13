@@ -101,8 +101,35 @@
 
 }
 
+/* footer */
 
+#titolo_footer{
+    color: grey;
+    font-size: 25px;
+    margin-top: 25px;
+}
 
+.img_monitor{
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    background-image: url(../img/monitor.jpg);
+}
+
+.img_graph{
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    background-image: url(../img/graph.jpg);
+}
+
+.img_monitor h3,
+.img_graph h3{
+    font-size: 20px;
+    color: honeydew;
+    padding-top: 7px;
+    padding-left: 3px;
+}
 
 
 
