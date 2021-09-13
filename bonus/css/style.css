@@ -2,8 +2,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 16px;    
 }
+
+
 
 #sfondo_logo{
     height: 100px;
@@ -29,7 +31,8 @@
 
 /* corpo dell'articolo */
 .container{
-    margin-left: 10px;
+    width: 1200px;
+    margin:auto;
 }
 
 .titolo_articolo{
