@@ -61,44 +61,37 @@
 
 /* sezione 4  */
 
-/* linea di intestazione */
-.row_intestazione{
-    margin-top: 20px;
-    background-color: rgb(21, 179, 241);
-    color: cornsilk;
+/* thead */
+table{
     font-size: 18px;
-    font-weight: bold;
+    margin-bottom: 20px;
+}
+.thead{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(31, 136, 235);
 }
 
-.spazio_intestazione{
-    display: inline-block;
+.th_1{
     width: 23%;
 }
 
-.spazio_intestazione3{
-    display: inline-block;
-    width: 40%;
+.th_2{
+    width:45% ;
 }
 
 /* tbody */
-
-.table{
-    margin-bottom: 20px;
+tbody{
+    /* font-weight:300; */
 }
 
-.row_body{
-    background-color: lightskyblue;
+.tbody_azzurro{
+    background-color: turquoise;
+    
 }
 
-.space_body{
-    display: inline-block;
-    width: 23%;
-}
-
-.space_body3{
-    display: inline-block;
-    width: 40%;
-
+.td_1{
+    text-align: center;
 }
 
 /* footer */
