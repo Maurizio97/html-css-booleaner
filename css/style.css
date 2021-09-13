@@ -1,7 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
 }
 
 #sfondo_logo{
@@ -26,3 +26,25 @@
 
 }
 
+/* corpo dell'articolo */
+.container{
+    margin-left: 10px;
+}
+
+.titolo_articolo{
+    font-size: 45px;
+
+}
+
+.autore_articolo{
+    color: grey;
+}
+
+.nome_autore{
+    color: lightskyblue;
+}
+
+
+.img_sezione1{
+    margin-top: 20px;
+}
